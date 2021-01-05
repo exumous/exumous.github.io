@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact;
+}
+
+header{
+    background-image: url(images/exclusive.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+ul li.active a{
+    background-color: peru;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aqua;
+    padding: 5px 20px;
+    border: 9px solid transparent;
+    transition: 0.6s, ease;
+    background-color: black;
+}
+
+ul li a:hover{
+    background-color: whitesmoke;
+}
+
+.logo img{
+    float: left;
+    height: 50px;
+    margin-top: 10px;
+    width: auto;
+}
+
+.main{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(40%, -70%);
+}
+
+.title h1{
+    color: aqua;
+    background-color: black;
+    font-size: 70px;
+    padding: 5px 20px;   
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(80%, 290%);
+}
+
+.btn{
+    text-decoration: none;
+    color: aqua;
+    padding: 5px 20px;
+    border: 9px solid transparent;
+    transition: 0.6s, ease;
+    background-color: peru;
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+}
